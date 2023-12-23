@@ -13,9 +13,10 @@
     --cor-secundaria: #ffffff;
 }
 
+
+
 body{
     background-color: #fbfbfb;
-    width: 100%;
 }
 
 
@@ -533,4 +534,80 @@ a.link:hover::after{
     right: 40px;
 }
 
+@media screen and (max-width: 430px) {
+    html{
+        background-color: yellowgreen;
+    }
 
+    .tituloMenu{
+        flex-direction: column;
+    }
+
+    .texto-titulo{
+        width: 60%;
+    }
+
+    #imgTituloMenu{
+        margin-top: 8%;
+    }
+
+    .texto-titulo p{
+        font-size: 25px;
+    }
+
+    .titulo-introducao h2{
+        font-size: 30px;
+    }
+
+    .titulo-introducao p{
+        font-size: 27px;
+    }
+
+    .introducao-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .introducao-card img{
+        display: none;
+    }
+
+    .card{
+        width: 80%;
+        height: 200px;
+        margin-bottom: 3%;
+    }
+
+    .card-meio, .card-direita{
+        width: 80%;
+        height: 200px;
+        justify-content: center;
+    }
+
+    .cardMobile p{
+        font-size: 20px;
+    }
+
+    .introducao-card h2{
+        text-transform: uppercase ;
+    }
+
+
+
+}
+
+html{
+    width: 100%;
+    display: flex;
+}
+
+body{
+    flex-direction: column;
+    display: flex;
+}
+
+.bordaESombra{
+    border-radius: 0px 30px 30px 30px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.498);
+}
