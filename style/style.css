@@ -34,6 +34,10 @@ header{
     align-items: center;
 }
 
+#burguer{
+    display: none;
+}
+
 .logo-menu-salesforce{
     margin-top: 10px;
     margin-left: 20px;
@@ -173,8 +177,7 @@ a.link:hover::after{
 .introducao-card{
     margin-top: 100px;
     display: flex;
-    
-    padding: 65px;
+    padding: 75px;
     
 }
 
@@ -539,6 +542,20 @@ a.link:hover::after{
         background-color: yellowgreen;
     }
 
+    .links-de-navegacao{
+        display: none;
+    }
+
+    .links-de-navegacao{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #burguer{
+        display: flex;
+        justify-content: flex-end;
+    }
+
     .tituloMenu{
         flex-direction: column;
     }
@@ -593,7 +610,52 @@ a.link:hover::after{
         text-transform: uppercase ;
     }
 
+    .produtos-principais{
+        display: flex;
+        flex-direction: column;
+    }
 
+    .sequencia-principais-produtos{
+        width: 80%;
+    }
+
+    .ganhe-mentoria{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ganhe-mentoria img{
+        display: none;
+    }
+
+    .titulo-ganhe-mentoria{
+      width: 65%;
+      align-items: center;
+    }
+
+    .formulario-ganhe{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .rodape{
+        display: none;
+    }
+
+    .segundo-rodape{
+        margin-top: 10%;
+    }
+
+    .logo-fiap{
+        display: none;
+    }
+
+    .segundo-rodape-conteudo{
+        width: 100%;
+    }
+
+    
 
 }
 

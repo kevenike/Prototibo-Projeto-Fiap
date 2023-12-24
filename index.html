@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
     <title>SalesFoce</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
     <header>
+  
         <nav class="menu">
             <img class="logo-menu-salesforce" src="./logo/Logo Sales.png" alt="">
         
-
-            <ul class="links-de-navegacao">
+            <span id="burguer" class="material-icons md-dark" onclick="clickMenu()">menu</span>
+            <ul id="linksNavegacao" class="links-de-navegacao">
                 <li>
                     <a class="link" href="">Produtos</a>
                 </li>
@@ -113,12 +116,11 @@
                     </div>
                 </div>
 
-                <img  src="./imagem/image 24.png" alt="">
+                <img class="imagem-urso"  src="./imagem/image 24.png" alt="">
             </div>
         </section>
 
         <section class="ganhe-mentoria"> 
-
             <div class="formulario-ganhe">
                 <h2 class="titulo-ganhe-mentoria">Ganhe uma mentoria especializada,E fique por dentro das nossas novidades e atualizações.</h2>
 
@@ -250,14 +252,18 @@
             <div class="conteudo-rodape">
                 <a href="">Newsletter</a>
             </div>
-
-            <div class="conteudo-rodape">
-                <img src="./logo/Logo Sales.png" alt="">
-            </div>
-            
-            
+            <img src="./logo/Logo Sales.png" alt="">
         </div>
         <img class="logo-fiap" src="./logo/Logo Fiap.png" alt="">
-    </footer>    
+    </footer>
+    <script>
+        function clickMenu(){
+           if( linksNavegacao.style.display == 'block'){
+                linksNavegacao.style.display = 'none'
+           }else{
+            linksNavegacao.style.display = 'block'
+           }
+        }
+    </script>    
 </body>
 </html>
