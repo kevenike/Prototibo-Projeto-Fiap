@@ -549,6 +549,7 @@ a.link:hover::after{
     #burguer{
         display: flex;
         justify-content: flex-end;
+        
     }
 
     .tituloMenu{
@@ -587,13 +588,13 @@ a.link:hover::after{
 
     .card{
         width: 80%;
-        height: 200px;
-        margin-bottom: 3%;
+        height: 350px;
+        margin-bottom: 6%;
     }
 
     .card-meio, .card-direita{
         width: 80%;
-        height: 200px;
+        height: 350px;
         justify-content: center;
     }
 
