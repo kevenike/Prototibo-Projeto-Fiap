@@ -25,13 +25,14 @@ header{
     width: 100%;
     height: 70px;
     background-color: var(--cor-secundaria);
+    position: fixed;
     
 }
 
 .menu{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 #burguer{
@@ -145,11 +146,9 @@ a.link:hover::after{
 
 /* introdução  */
 .titulo-introducao{
-    width: 700px;
+    width: 50%;
     margin-top: 40px;
     margin-left: 70px;
-
-    
 }
 
 .titulo-introducao h2{
@@ -229,7 +228,7 @@ a.link:hover::after{
 
 }
 
-.card-meio p {
+.card-meio p{
     margin-top: 10px;
     margin-left: 10px;
     font-family: "Roboto";
@@ -537,9 +536,9 @@ a.link:hover::after{
     right: 40px;
 }
 
-@media screen and (max-width: 430px) {
-    html{
-        background-color: yellowgreen;
+@media (max-width: 430px) {
+    header{
+        position: fixed;
     }
 
     .links-de-navegacao{
@@ -629,10 +628,35 @@ a.link:hover::after{
       align-items: center;
     }
 
+    .ganhe-mentoria{
+        height: 15%;
+    }
+
     .formulario-ganhe{
         width: 100%;
         display: flex;
         align-items: center;
+    }
+
+    .titulo-ganhe-mentoria{
+        font-size: 50px;
+    }
+
+    .fomulario{
+        height: 60%;
+    }
+
+    .fomulario input{
+        width: 100%;
+        height: 70PX;
+        border-radius: 10PX;
+
+        font-size: 20PX;
+    }
+    
+    .botao-formulario{
+        height: 70px;
+        font-size: 20px;
     }
 
     .rodape{
@@ -650,9 +674,6 @@ a.link:hover::after{
     .segundo-rodape-conteudo{
         width: 100%;
     }
-
-    
-
 }
 
 html{
@@ -663,9 +684,26 @@ html{
 body{
     flex-direction: column;
     display: flex;
-}
+} 
 
 .bordaESombra{
     border-radius: 0px 30px 30px 30px;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.498);
+}
+
+
+.menu-open{
+    display: block;
+    width: 15%;
+    position: absolute;
+    right: 0px;
+    top: 30px;
+
+    background-color: #0094fd;
+    border-radius: 10px;
+}
+
+.menu-open a{
+    color: #F1F1F1;
+    
 }
