@@ -546,10 +546,6 @@ a.link:hover::after{
         display: none;
     }
 
-    .links-de-navegacao{
-        display: flex;
-        flex-direction: column;
-    }
 
     #burguer{
         display: flex;
