@@ -205,8 +205,9 @@ a.link:hover::after{
     margin-left: 10px;
     margin-top: 10px;
     text-align: left;
-    font-size: 17px;
+    font-size: 25px;
     font-family: "Roboto";
+    font-weight: 400;
 }
 
 .card-meio{
@@ -231,8 +232,10 @@ a.link:hover::after{
 .card-meio p{
     margin-top: 10px;
     margin-left: 10px;
-    font-family: "Roboto";
     font-size: 17px;
+    font-family: "Roboto";
+    font-weight: 600;
+   
 }
 
 .card-imagem-esquerda{
@@ -269,6 +272,7 @@ a.link:hover::after{
     margin-left: 5px;
     font-family: "Roboto";
     font-size: 17px;
+    font-weight: 600;
 }
 
 
