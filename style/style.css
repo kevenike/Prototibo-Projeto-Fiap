@@ -657,6 +657,11 @@ a.link:hover::after{
         align-items: center;
     }
 
+    .formulario-ganhe h2{
+        width: 100%;
+        text-align: left;    
+    }
+
     .titulo-ganhe-mentoria{
         font-size: 50px;
         text-align: center;
@@ -677,6 +682,10 @@ a.link:hover::after{
     .botao-formulario{
         height: 70px;
         font-size: 20px;
+    }
+
+    .cards-empresa h2{
+        width: 100%;
     }
 
     .rodape{
