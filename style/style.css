@@ -122,13 +122,14 @@ a.link:hover::after{
     margin-top: 10px;
     text-align: left;
     font-family: sans-serif;
-    font-size: 17px;
+    font-size: 22px;
+    color: black;
 }
 
 .botao-titulo{
     margin-top: 30px;
     border-style: none;
-    width: 100%;
+    width: 70%;
     height: 42px;
     border-radius: 10px;
 
@@ -143,6 +144,76 @@ a.link:hover::after{
     background-color: rgb(25, 132, 247);
     transform: scale(1.1);
 }
+
+/* Formulario Fixado */
+
+
+.formularioFixado{
+    width: 20%;
+    height: 45%;
+    background-color: white;
+    border-radius: 10px;
+
+    position: fixed;
+    right: 7px;
+    bottom: 3px;
+}
+
+.legenda{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 60px;
+    background-color: var(--cor-primaria);
+    border-radius: 10px 0px 0px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: #F1F1F1;
+}
+
+.formularioFixado form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.formularioFixado input{
+    width: 70%;
+    height: 35px;
+    border-radius: 4px;
+    border-style: solid;
+   
+    
+}
+
+.formularioFixado input:focus{
+    outline: none;
+}
+
+.botaoFormularioFixado{
+    width: 200px;
+    padding: 15px;
+
+    border-style: none;
+    border-radius: 10px;
+    background-color: var(--cor-primaria);
+    color: #F1F1F1;
+
+    transition: 1.05s;
+    cursor: pointer;
+}
+
+.botaoFormularioFixado:hover{
+    background-color: #4A7CFF;
+}
+
+
+
 
 /* introdução  */
 .titulo-introducao{
@@ -368,7 +439,7 @@ a.link:hover::after{
 /* fim Principais-produtos */
 
 /* formulario */
-.ganhe-mentoria{
+ .ganhe-mentoria{
     height: 496px;
     background-color: #F2F2F2;
     display: flex;
@@ -418,7 +489,7 @@ a.link:hover::after{
     transition: 1.05s;
     cursor: pointer;
 
-}
+} */
 
 .botao-formulario:hover{
     background-color: #4A7CFF;
@@ -463,12 +534,13 @@ a.link:hover::after{
     box-shadow: 0px 3px 5px black;
 
     display: flex;
+    justify-content: center;
     align-items: center;
 
 }
 
 .cards-empresas img{
-   width: 100%;
+   width: 55%;
    border-radius: 10px;
 }
 /* Rodape */

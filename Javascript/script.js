@@ -8,3 +8,12 @@ function clickMenu() {
         linksNavegacao.style.display = 'block'
     }
 }
+
+
+function clickFormulario() {
+    let fixado = document.getElementById('fixado')
+    if (fixado.style.display == 'block') {
+        fixado.classList.remove('formularioFixado-open')
+        fixado.style.display = 'none'
+    } 
+}
