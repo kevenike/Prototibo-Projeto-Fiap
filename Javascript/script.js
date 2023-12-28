@@ -10,10 +10,30 @@ function clickMenu() {
 }
 
 
-function clickFormulario() {
-    let fixado = document.getElementById('fixado')
-    if (fixado.style.display == 'block') {
-        fixado.classList.remove('formularioFixado-open')
-        fixado.style.display = 'none'
-    } 
-}
+document.querySelector('.iconeFormularioFixado').addEventListener('click', function(){
+
+    var formOculto = document.querySelector('.formularioFixado')
+
+    if( formOculto.classList.contains('formOculto')){
+
+        formOculto.classList.remove('formOculto')
+        
+    }else{
+        formOculto.classList.add('formOculto')
+    }
+
+})
+
+document.querySelector('.iconeX').addEventListener('click', function(){
+
+    var formOculto = document.querySelector('.formularioFixado')
+
+    if( formOculto.classList.contains('formOculto')){
+
+        formOculto.classList.remove('formOculto')
+        
+    }else{
+        formOculto.classList.add('formOculto')
+    }
+
+})
