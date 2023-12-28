@@ -52,6 +52,8 @@ header{
     flex-direction: row;
     justify-content: flex-end;
     gap: 30px;
+
+   
 }
 
 .links-de-navegacao li{
@@ -62,9 +64,10 @@ header{
 
 .links-de-navegacao a{
     text-decoration: none;
-    color: #032d60;
+    color: #616d72;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
+    text-transform: uppercase;
 }
 
 
@@ -79,7 +82,7 @@ header{
 }
 
 a.link:hover::after{
-    width: 100%;
+    width: 70%;
 }
 
 
