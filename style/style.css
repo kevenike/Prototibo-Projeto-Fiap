@@ -58,7 +58,6 @@ header{
 
 .links-de-navegacao li{
     list-style: none;
-
     margin-top: 30px;
 }
 
@@ -66,8 +65,9 @@ header{
     text-decoration: none;
     color: #616d72;
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 
@@ -154,31 +154,27 @@ a.link:hover::after{
 }
 
 .iconeFomulario{
-    background-color: #616d72;
-    width: 5%;
-    height: 8%;
+    width: 6%;
+    height: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00b3ff;
     border-radius: 40px 40px;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: white;
+    cursor: pointer;
+
 
     position: fixed;
-    right: 5px;
-
+    right: 10px;
     bottom: 150px;
-}
-
-.iconeFormularioFixado {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.iconeFormularioFixado img{
-    width: 80%;
-    height: 70%;
 }
 
 .formularioFixado{
     width: 20%;
-    height: 60%;
+    height: 50%;
     background-color: white;
     border-radius: 10px;
 
@@ -199,6 +195,10 @@ a.link:hover::after{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
     color: #F1F1F1;
+}
+
+.material-symbols-outlined{
+    cursor: pointer;
 }
 
 .formularioFixado form{
@@ -275,7 +275,8 @@ a.link:hover::after{
 .introducao-card{
     margin-top: 100px;
     display: flex;
-    padding: 75px;
+    flex-direction: row;
+    padding: 40px;
 
 }
 
@@ -297,16 +298,16 @@ a.link:hover::after{
     margin-bottom: 20px;
     font-size: 35px;
     font-weight: 700;
-    font-family: "Roboto";
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .card p{
     margin-left: 10px;
     margin-top: 10px;
     text-align: left;
-    font-size: 25px;
-    font-family: "Roboto";
-    font-weight: 400;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 
 .card-meio{
@@ -517,7 +518,7 @@ a.link:hover::after{
     transition: 1.05s;
     cursor: pointer;
 
-} */
+} 
 
 .botao-formulario:hover{
     background-color: #4A7CFF;
@@ -637,7 +638,8 @@ a.link:hover::after{
 
 
 .logo-fiap{
-    right: 40px;
+    display: flex;
+    align-items: center;
 }
 
 @media (max-width: 430px) {
@@ -716,24 +718,38 @@ a.link:hover::after{
         display: none;
     }
 
+    .iconeFomulario{
+        width: 13%;
+        height: 3%;
+    }
+
+    .formularioFixado{
+        width: 50%;
+        height: 35%;
+    }
+
     .card{
-        width: 80%;
+        width: 90%;
         height: 350px;
         margin-bottom: 6%;
     }
 
+
     .card-meio, .card-direita{
-        width: 80%;
-        height: 350px;
-        justify-content: center;
+        width: 90%;
+        height: 300px;
+        align-items: center;
+      
     }
 
     .cardMobile p{
-        font-size: 20px;
+        font-size: 25px;
+        font-weight: 300;
     }
 
     .introducao-card h2{
         text-transform: uppercase ;
+        font-size: 30px;
     }
 
     .produtos-principais{

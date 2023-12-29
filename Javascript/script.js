@@ -9,7 +9,7 @@ function clickMenu() {
     }
 }
 
-document.querySelector('.iconeFormularioFixado').addEventListener('click', function(){
+document.querySelector('.iconeFomulario').addEventListener('click', function(){
 
     var formOculto = document.querySelector('.formularioFixado')
 
