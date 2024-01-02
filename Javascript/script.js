@@ -36,3 +36,4 @@ document.querySelector('.iconeX').addEventListener('click', function(){
     }
 
 })
+
