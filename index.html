@@ -50,16 +50,7 @@
         </section>
 
         <section class="acessibilidade">
-            <div vw class="enabled">
-                <div vw-access-button class="active"></div>
-                <div vw-plugin-wrapper>
-                  <div class="vw-plugin-top-wrapper"></div>
-                </div>
-              </div>
-              <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-              <script>
-                new window.VLibras.Widget('https://vlibras.gov.br/app');
-              </script>
+           
         </section>
 
         <section class="iconeFomulario">
@@ -70,15 +61,16 @@
         <section class="formularioFixado formOculto">
             <form class="fixado" action="">
                 <legend class="legenda">Ganhe uma mentoria especializada<span class="material-symbols-outlined iconeX">close</span></legend>
+                <div class="name">
+                    <input type="text" id="name" placeholder="Nome" required>
+                    
+                    <input type="text" id="surname" placeholder="Sobrenome" required>
                 
-                <input type="text" placeholder="Nome" required>
+                    <input type="email" id="" placeholder="Seu E-email" required>
 
-                <input type="text" placeholder="Sobrenome" required>
+                    <input type="text" placeholder="Telefone" required>
 
-                <input type="email" placeholder="Seu E-email" required>
-
-                <input type="text" placeholder="Telefone" required>
-
+                </div>
                 <button class="botaoFormularioFixado">Enviar</button>
             </form>
         </section>
@@ -298,7 +290,19 @@
         </div>
         <a href="https://www.fiap.com.br/" class="logo-fiap"><img  src="./logo/Logo Fiap.png" alt=""></a>
     </footer>
+    
     <script src="./Javascript/script.js"></script>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
 </body>
 
 </html>
