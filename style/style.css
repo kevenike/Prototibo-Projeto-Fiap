@@ -515,8 +515,9 @@ a.link:hover::after{
 /* fim Principais-produtos */
 
 /* formulario */
- .ganhe-mentoria{
-    height: 496px;
+
+.ganhe-mentoria{
+    height: 900px;
     background-color: #F2F2F2;
     display: flex;
     flex-direction: row;
@@ -524,51 +525,47 @@ a.link:hover::after{
     align-items: center;
 }
 
-.titulo-ganhe-mentoria{
-    font-family: "Roboto";
-}
-
-.formulario-ganhe{
-    width: 50%;
-    gap: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.fomulario{
-    width: 50%;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 22px;
-}
-
-.fomulario input{
-    padding: 10px;
-    border-style: none;
-}
-
-.fomulario input:focus{
-    outline: none;
-}
-
-.botao-formulario{
-    width: 200px;
-    padding: 15px;
-
-    border-style: none;
+.imagemDivulga{
+    background-image: url('../imagem/imagemdivuga.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 90%;
+    
     border-radius: 10px;
-    background-color: var(--cor-primaria);
+}
+
+.imagemDivulgaTexto{
+    margin-top: 25px;
+    width: 30%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   
     color: #F1F1F1;
+}
 
-    transition: 1.05s;
-    cursor: pointer;
+.imagemDivulgaTexto h2{
+    font-size: 45px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-} 
+.imagemDivulgaTexto p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
 
-.botao-formulario:hover{
-    background-color: #4A7CFF;
+.imagemDivulgaTexto a{
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagemDivulgaTexto a:hover{
+    color: #4A7CFF;
+    transition: 1.5s;
 }
 
 /* caeds empresas */
@@ -830,49 +827,13 @@ a.link:hover::after{
         width: 80%;
     }
 
-    .ganhe-mentoria{
-        display: flex;
-        flex-direction: column;
-        height: 15%;
+    .imagemDivulga{
+        width: 800px;
+        height: 824px;
+        flex-shrink: 0;
     }
 
-    .ganhe-mentoria img{
-        display: none;
-    }
-
-    .formulario-ganhe{
-        width: 100%;
-        display: flex;
-        align-items: center;
-    }
-
-    .formulario-ganhe h2{
-        width: 100%;
-        text-align: left;    
-    }
-
-    .titulo-ganhe-mentoria{
-        font-size: 50px;
-        text-align: center;
-    }
-
-    .fomulario{
-        height: 60%;
-    }
-
-    .fomulario input{
-        width: 100%;
-        height: 70PX;
-        border-radius: 10PX;
-
-        font-size: 20PX;
-    }
-
-    .botao-formulario{
-        height: 70px;
-        font-size: 20px;
-    }
-
+    
     .cards-empresa h2{
         width: 100%;
     }
