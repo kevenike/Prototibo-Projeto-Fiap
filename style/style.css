@@ -787,6 +787,16 @@ a.link:hover::after{
         font-size: 20PX;
     }
 
+    .iconeFomulario{
+        width: 20%;
+        height: 70px;
+       
+    }
+
+    .iconeFomulario h2{
+        font-size: 20px;
+    }
+
     .card{
         width: 90%;
         height: 350px;
