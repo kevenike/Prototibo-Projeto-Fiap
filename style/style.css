@@ -797,16 +797,15 @@ a.link:hover::after{
 
     .card{
         width: 90%;
-        height: 350px;
+        height: 400px;
         margin-bottom: 6%;
     }
 
 
     .card-meio, .card-direita{
         width: 90%;
-        height: 300px;
-        align-items: center;
-      
+        height: 350px;
+        align-items: center;      
     }
 
     .cardMobile p{
