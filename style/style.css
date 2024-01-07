@@ -718,7 +718,7 @@ a.link:hover::after{
 
     .menu-open a{
         color: var(--cor-primaria);
-        font-size: 20px;
+        font-size: 35px;
     }
 
     .tituloMenu{
@@ -727,6 +727,7 @@ a.link:hover::after{
 
     .texto-titulo{
         width: 60%;
+        font-size: 80px;
     }
 
     #imgTituloMenu{
@@ -734,7 +735,7 @@ a.link:hover::after{
     }
 
     .texto-titulo p{
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .titulo-introducao{
@@ -747,7 +748,7 @@ a.link:hover::after{
     }
 
     .titulo-introducao p{
-        font-size: 35px;
+        font-size: 45px;
     }
 
     .introducao-card{
@@ -809,18 +810,31 @@ a.link:hover::after{
     }
 
     .cardMobile p{
-        font-size: 25px;
+        font-size: 35px;
         font-weight: 300;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     .introducao-card h2{
         text-transform: uppercase ;
-        font-size: 30px;
+        font-size: 33px;
     }
 
     .produtos-principais{
         display: flex;
         flex-direction: column;
+    }
+
+    .titulo-principais-produtos{
+        font-size: 35px;
+    }
+
+    .texto-produtos{
+        font-size: 35px;
+    }
+
+    .produtos{
+        margin-top: 20px;
     }
 
     .sequencia-principais-produtos{
