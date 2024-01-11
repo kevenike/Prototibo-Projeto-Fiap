@@ -1,0 +1,323 @@
+* {
+    margin: 0px;
+
+    padding: 0px;
+}
+
+:root {
+    --cor-produtos-primaria: #3029D9;
+    --cor-secundaria: #ffffff;
+}
+
+/* Menu pagina de produtos */
+.cabecalho-produtos {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color: var(--cor-produtos-primaria);
+}
+
+.menu-produtos {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#burguerProdutos {
+    display: none;
+}
+
+.logo-menu-produtos {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 70px;
+
+}
+
+.links-de-navegacao-produtos {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.links-de-navegacao-produtos li {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.links-de-navegacao-produtos a {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+.links-de-navegacao-produtos .link-produtos::after {
+    background: #ebebeb;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0;
+    transition: all .4s ease;
+    width: 0px;
+}
+
+.link-produtos:hover::after {
+    width: 70%;
+}
+
+/* Introdução da pagina de produtos */
+
+.introducao-produtos {
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+    background-color: var(--cor-produtos-primaria);
+}
+
+.produtos {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    padding: 60px;
+}
+
+.produtos-esquerda {
+    width: 30%;
+
+}
+
+.produtos-esquerda h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    color: white;
+}
+
+.produtos-esquerda p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    font-weight: 200;
+    margin-top: 50px;
+    
+}
+
+.produtos-direita {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.icones-do-texto{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.produtos-direita h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.produtos-direita p {
+    margin-top: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.fa-solid {
+    color: white;
+    font-size: 17px;
+}
+
+/* cards-conta-pessoal */
+
+.titulo-nova-experiencia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.nova-experiencia{
+    width: 45%;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.card-conta{
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 40px;
+    
+    
+}
+
+
+.card-conta-pessoal{
+    width: 50%;
+    height: 432px;
+    background-color: #F5F6FA;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.texto-conta {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.conta-paragrafo{
+    width: 85%;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: #9A9A9A;
+}
+
+.conta-link{
+    color: #3029D9;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+
+    transition: 0.5s;
+    
+}
+
+.conta-link:hover{
+    color: #006eff;
+}
+
+@media (max-width: 425px) {
+
+    .links-de-navegacao-produtos {
+        display: none;
+    }
+
+    #burguerProdutos {
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        color: white;
+        font-weight: 100;
+    }
+
+    .menu-open-produtos {
+        display: block;
+        width: 100%;
+        text-align: center;
+
+        position: absolute;
+        top: 65px;
+
+        background-color: var(--cor-produtos-primaria);
+        box-shadow: 1px 1px 1px black;
+        ;
+    }
+
+    .introducao-produtos {
+        height: 100%;
+    }
+
+    .produtos {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+
+    .produtos-esquerda {
+        width: 80%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .produtos-esquerda h1 {
+        font-size: 30px;
+
+    }
+
+    .produtos-esquerda p {
+        font-size: 10px;
+        margin-top: 50px;
+    }
+
+    .produtos-direita {
+        width: 80%;
+        margin-top: 40px;
+        padding: 20px;
+    }
+
+    .produtos-direita h2 {
+        font-size: 17px;
+        font-weight: 700;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .produtos p {
+        font-size: 15px;
+    }
+
+    .titulo-nova-experiencia{
+        display: flex;
+        justify-content: center;
+    }
+
+    .nova-experiencia{
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .card-conta{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-conta-pessoal{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto-conta{
+        font-size: 25px;
+    }
+
+    .conta-paragrafo{
+        width: 90%;
+        font-size: 17px;      
+    }
+}

@@ -9,6 +9,17 @@ function clickMenu() {
     }
 }
 
+function clickMenuProdutos() {
+    let linksNavegacao = document.getElementById('linksNavegacaoProdutos')
+    if (linksNavegacao.style.display == 'block') {
+        linksNavegacao.classList.remove('menu-open-produtos')
+        linksNavegacao.style.display = 'none'
+    } else {
+        linksNavegacao.classList.add('menu-open-produtos')
+        linksNavegacao.style.display = 'block'
+    }
+}
+
 document.querySelector('.iconeFomulario').addEventListener('click', function(){
 
     var formOculto = document.querySelector('.formularioFixado')
