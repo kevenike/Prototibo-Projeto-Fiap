@@ -720,12 +720,10 @@ body {
 
 
     #burguer {
-        width: 7%;
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 50px;
-
     }
 
     .menu-open {
@@ -743,7 +741,6 @@ body {
 
     .menu-open a {
         color: var(--cor-primaria);
-        font-size: 35px;
     }
 
     .tituloMenu {
