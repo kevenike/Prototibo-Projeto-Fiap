@@ -672,6 +672,17 @@ body {
     font-weight: 700;
 }
 
+.redes-sociais{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+.redes-sociais i{
+    font-size: 20px;
+}
+
 /* segundo rodape */
 .segundo-rodape {
     background-color: #F4F4F4;
@@ -1005,14 +1016,3 @@ body {
         width: 10%;
     }
 }
-
-/* 
-html{
-    width: 100%;
-    display: flex;
-}
-
-body{ 
-    display: flex;
-    flex-direction: column; 
-}  */
