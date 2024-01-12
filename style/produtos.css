@@ -265,64 +265,64 @@
 
 /* Anuncio */
 
-.ConteudoMultimidia{
+.ConteudoMultimidia {
     margin-top: 130px;
 }
 
-.anucio{
+.anucio {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.conteudo-marketing{
+.conteudo-marketing {
     width: 30%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-.marketing{
+.marketing {
     color: #3029D9;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
-.investimento{
+.investimento {
     width: 70%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
 }
 
-.cliente-com-sucesso{
+.cliente-com-sucesso {
     font-size: 20px;
     font-family: sans-serif;
 }
 
-.QuantumMark{
+.QuantumMark {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
 }
 
-.icone-marketing{
+.icone-marketing {
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
 
-.fa-marketing{
+.fa-marketing {
     color: #3029D9;
     font-size: 25px;
 }
 
-.texto-marketing{
+.texto-marketing {
     font-family: sans-serif;
 }
 
-.btn-demo{
+.btn-demo {
     background: white;
     width: 35%;
     border-radius: 20px;
@@ -334,12 +334,12 @@
     cursor: pointer;
 }
 
-.btn-demo:hover{
+.btn-demo:hover {
     background-color: #006eff;
     color: white;
 }
 
-.card-preso-no-tempo{
+.card-preso-no-tempo {
     background-color: #F5F6FA;
     display: flex;
     flex-direction: column;
@@ -351,13 +351,13 @@
     border-radius: 20px;
 }
 
-.preso-no-tempo{
+.preso-no-tempo {
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.ataualize-abordagem{
+.ataualize-abordagem {
     width: 65%;
     font-family: sans-serif;
     font-size: 20px;
@@ -366,7 +366,7 @@
     color: #9A9A9A;
 }
 
-.saiba-mais{
+.saiba-mais {
     color: #3029D9;
     font-size: 20px;
     font-weight: 500;
@@ -375,22 +375,22 @@
     transition: 1.5s;
 }
 
-.saiba-mais:hover{
+.saiba-mais:hover {
     color: #006eff;
 }
 
 /* seção vendas */
 
-.secao-vendas{
+.secao-vendas {
     margin-top: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     padding: 30px 10px;
-} 
+}
 
-.vendas{
+.vendas {
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -398,30 +398,30 @@
 
 }
 
-.imagem-mulher-sorindo{
+.imagem-mulher-sorindo {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.titulo-vendas{
+.titulo-vendas {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 9000;
     color: #3029D9;
 }
 
-.aumente-as-vendas{
+.aumente-as-vendas {
     width: 65%;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
 }
 
-.comercio-online{
+.comercio-online {
     width: 70%;
     font-size: 20px;
     font-family: sans-serif;
 }
 
-.commerce-cloud{
+.commerce-cloud {
     color: #3029D9;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -429,11 +429,11 @@
     transition: 1.5s;
 }
 
-.seta{
+.seta {
     color: #3029D9;
 }
 
-.commerce-cloud:hover{
+.commerce-cloud:hover {
     color: #006eff;
 }
 
@@ -471,14 +471,14 @@
     font-weight: 700;
 }
 
-.redes-sociais{
+.redes-sociais {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    
+
 }
 
-.redes-sociais i{
+.redes-sociais i {
     font-size: 20px;
 }
 
@@ -641,93 +641,97 @@
         font-size: 18px;
     }
 
-    .anucio{
+    .anucio {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         gap: 30px;
     }
 
-    .marketing{
+    .marketing {
         display: none;
     }
 
-    .card-preso-no-tempo{
+    .card-preso-no-tempo {
         padding-top: 20px;
         width: 90%;
     }
 
-    .preso-no-tempo{
+    .preso-no-tempo {
         font-size: 35px;
     }
 
-    .ataualize-abordagem{
+    .ataualize-abordagem {
         width: 100%;
         font-size: 18px;
     }
 
-    .conteudo-marketing{
+    .conteudo-marketing {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .cliente-com-sucesso{
+    .cliente-com-sucesso {
         width: 80%;
     }
 
-    .QuantumMark{
+    .QuantumMark {
         width: 95%;
     }
 
-    .investimento{
+    .investimento {
         width: 80%;
         font-size: 40px;
     }
 
     /* vendas */
 
-    .imagem-mulher-sorindo{
+    .imagem-mulher-sorindo {
         width: 90%;
     }
 
-    .secao-vendas{
+    .secao-vendas {
         display: flex;
         flex-direction: column;
     }
 
-    .titulo-vendas{
+    .titulo-vendas {
         display: none;
     }
 
-    .vendas{
+    .vendas {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .aumente-as-vendas{
+    .aumente-as-vendas {
         width: 100%;
         margin-top: 40px;
         font-size: 35px;
     }
 
-    .comercio-online{
+    .comercio-online {
         width: 100%;
     }
 
     /* rodape */
-    .rodape{
+    .rodape {
         display: none;
     }
 
-    .segundo-rodape-conteudo{
+    .segundo-rodape{
+        margin-top: 70px;
+    }
+
+    .segundo-rodape-conteudo {
         width: 97%;
     }
 
-    
+
     .conteudo-rodape a {
         font-size: 10px;
     }
@@ -738,7 +742,7 @@
         width: 20%;
     }
 
-    .logo-fiap{
+    .logo-fiap {
         display: none;
     }
 }
