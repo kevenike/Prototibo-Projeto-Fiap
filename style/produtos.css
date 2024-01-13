@@ -147,6 +147,7 @@
 /* cards-conta-pessoal */
 
 .titulo-nova-experiencia {
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -217,7 +218,7 @@
 /* texto-produtos-salesforce */
 .campo-texto-produtos {
     background-color: #FBFBFB;
-    margin-top: 80px;
+    margin-top: 120px;
 }
 
 .campo-texto {
@@ -259,7 +260,7 @@
 
 .paragrafo-exelencia-empresarial {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
+    font-size: 47px;
     font-weight: 550;
 }
 
@@ -465,7 +466,7 @@
 
 .rodape-conteudo a {
     text-decoration: none;
-    font-family: "Archivo";
+    font-family: Arial, Helvetica, sans-serif;
     color: #858585;
     font-size: 13px;
     font-weight: 700;
@@ -476,6 +477,10 @@
     flex-direction: row;
     gap: 20px;
 
+}
+
+.conteudo h3{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .redes-sociais i {
@@ -510,7 +515,8 @@
 
 .conteudo-rodape a {
     text-decoration: none;
-    color: #858585
+    color: #858585;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -519,7 +525,7 @@
     align-items: center;
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
 
     .links-de-navegacao-produtos {
         display: none;
@@ -745,4 +751,80 @@
     .logo-fiap {
         display: none;
     }
+}
+
+@media only screen and (width: 768px) {
+
+     .produtos{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+     }
+
+     .produtos-esquerda{
+        width: 80%;
+     }
+
+     .produtos-direita{
+        width: 80%;
+     }
+
+     .nova-experiencia{
+        width: 98%;
+     }
+
+     .card-conta{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+     }
+
+     .campo-texto-esquedo{
+        display: none;
+     }
+
+     .campo-texto-direito{
+        width: 90%;
+     }
+
+     .paragrafo-exelencia-empresarial{
+        font-size: 30px;
+     }
+
+     .anucio{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+     }
+
+     .card-preso-no-tempo{
+        width: 80%;
+     }
+
+     .conteudo-marketing{
+        width: 90%;
+     }
+
+     .secao-vendas{
+       gap: 60px;
+     }
+
+     .imagem-mulher-sorindo{
+        width: 50%;
+     }
+
+     .vendas{
+        width: 50%;
+     }
+
+     .aumente-as-vendas{
+        width: 90%;
+        font-size: 22px;
+     }
+
+     .comercio-online{
+        width: 80%;
+        font-size: 17px;
+     }
 }
