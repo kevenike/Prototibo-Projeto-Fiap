@@ -34,7 +34,7 @@ document.querySelector('.iconeFomulario').addEventListener('click', function(){
 
 })
 
-document.querySelector('.iconeX').addEventListener('click', function(){
+document.querySelector('.iconex').addEventListener('click', function(){
 
     var formOculto = document.querySelector('.formularioFixado')
 

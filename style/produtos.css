@@ -479,7 +479,7 @@
 
 }
 
-.conteudo h3{
+.conteudo h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -525,7 +525,7 @@
     align-items: center;
 }
 
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
 
     .links-de-navegacao-produtos {
         display: none;
@@ -729,7 +729,7 @@
         display: none;
     }
 
-    .segundo-rodape{
+    .segundo-rodape {
         margin-top: 70px;
     }
 
@@ -753,78 +753,123 @@
     }
 }
 
-@media only screen and (width: 768px) {
+@media (width: 768px) {
 
-     .produtos{
+    .produtos {
         display: flex;
         flex-direction: column;
         gap: 60px;
-     }
+    }
 
-     .produtos-esquerda{
+    .produtos-esquerda {
         width: 80%;
-     }
+    }
 
-     .produtos-direita{
+    .produtos-direita {
         width: 80%;
-     }
+    }
 
-     .nova-experiencia{
+    .nova-experiencia {
         width: 98%;
-     }
+    }
 
-     .card-conta{
+    .card-conta {
         display: flex;
         flex-direction: column;
         width: 100%;
-     }
+    }
 
-     .campo-texto-esquedo{
+    .campo-texto-esquedo {
         display: none;
-     }
+    }
 
-     .campo-texto-direito{
+    .campo-texto-direito {
         width: 90%;
-     }
+    }
 
-     .paragrafo-exelencia-empresarial{
+    .paragrafo-exelencia-empresarial {
         font-size: 30px;
-     }
+    }
 
-     .anucio{
+    .anucio {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         gap: 30px;
-     }
+    }
 
-     .card-preso-no-tempo{
+    .card-preso-no-tempo {
         width: 80%;
-     }
+    }
 
-     .conteudo-marketing{
+    .conteudo-marketing {
         width: 90%;
-     }
+    }
 
-     .secao-vendas{
-       gap: 60px;
-     }
+    .secao-vendas {
+        gap: 60px;
+    }
 
-     .imagem-mulher-sorindo{
+    .imagem-mulher-sorindo {
         width: 50%;
-     }
+    }
 
-     .vendas{
+    .vendas {
         width: 50%;
-     }
+    }
 
-     .aumente-as-vendas{
+    .aumente-as-vendas {
         width: 90%;
         font-size: 22px;
-     }
+    }
 
-     .comercio-online{
+    .comercio-online {
         width: 80%;
         font-size: 17px;
-     }
+    }
+}
+
+@media (width: 1024px) {
+
+    .produtos-esquerda h1 {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .nova-experiencia {
+        width: 100%;
+    }
+
+    .card-conta {
+        width: 90%;
+    }
+
+    .paragrafo-produtos {
+        font-size: 13px;
+    }
+
+    .paragrafo-exelencia-empresarial {
+        font-size: 40px;
+    }
+
+    .anucio {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .conteudo-marketing {
+        width: 70%;
+    }
+
+    .aumente-as-vendas {
+        width: 90%;
+        font-size: 30px;
+    }
+
+    .comercio-online {
+        width: 100%;
+    }
+
 }

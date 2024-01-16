@@ -206,131 +206,104 @@ body {
 }
 
 .formularioFixado {
-    width: 50%;
-    height: 500px;
-    background-color: #F2F2F2;
-    border-radius: 10px;
+    background-color: #ffffff;
+    max-width: 300px;
+    height: 450px;
+    padding: 40px;
+
+    border-radius: 20px;
+    border: 6px solid;
+    border-color: var(--cor-primaria);
 
 
     position: fixed;
-    right: 25%;
-    bottom: 20%;
+    bottom: 1%;
+    right: 10px; 
 
-    box-shadow: 0 0 10px 10px #666;
+}
+
+.fixado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .legenda {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 60px;
-    background-color: var(--cor-primaria);
-    border-radius: 10px 0px 0px;
-    font-size: 20px;
+    text-align: center;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    color: #F1F1F1;
+    margin: 10px 0px;
 }
 
-.material-symbols-outlined {
-    cursor: pointer;
-}
-
-
-.fixado {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-
-}
-
-.name {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    gap: 20px;
-
-}
-
-
-.name input {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 50px;
-    gap: 20px;
-    border-radius: 10px;
-    border-style: none;
-    padding: 1px;
-    text-transform: uppercase;
-
-
-}
-
-.name input:focus {
-    outline: none;
-}
-
-.name label {
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-}
-
-.asteriscoVermelho {
-    color: red;
-}
-
-.botaoFormularioFixado {
-    width: 50%;
-    padding: 20px;
-    border-style: none;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    background-color: var(--cor-primaria);
-    color: #F1F1F1;
-
-    transition: 1.05s;
-    cursor: pointer;
-}
-
-.botaoFormularioFixado:hover {
-    background-color: #4A7CFF;
-}
-
-
-
-
-/* introdução  */
-.titulo-introducao {
-    width: 50%;
-    margin-top: 40px;
-    margin-left: 70px;
-}
-
-.titulo-introducao h2 {
-    font-family: "Archivo";
-    font-size: 33px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.nossos-clientes {
+.especializada {
     color: var(--cor-primaria);
 }
 
-.titulo-introducao p {
-    margin-top: 10px;
-    color: #bbb;
-    font-size: 20px;
-    font-weight: 400;
-
+.formulario-lead {
+    position: relative;
+    margin: 20px 0px;
 }
 
+.formulario-lead label {
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    transition: all 0.2s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    font-size: 17px;
+    outline: none;
+}
+
+form .formulario-lead .input:focus ~ label,
+form .formulario-lead .input:valid ~ label {
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: #00b3ff;
+} 
+
+.botaoFormularioFixado{
+    width: 70%;
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: var(--cor-primaria);
+    color: #fff;
+    transition: 1.5s;
+}
+
+.botaoFormularioFixado:hover{
+    background-color: #00b3ff;
+}
+
+/* Nosso cliente */
+
+.titulo-introducao{
+    margin-left: 40px;
+}
+
+.titulo-introducao h2{
+    font-size: 40px;
+    font-family: "Roboto";
+}
+
+.nossos-clientes{
+    color: var(--cor-primaria);
+}
+
+.titulo-introducao p{
+    width: 44%;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    color: #858585;
+}
 /* introducao card */
 
 .introducao-card {
@@ -550,6 +523,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    border-image: fill 0 linear-gradient(#0001, #000);
     width: 80%;
     height: 90%;
 
@@ -672,14 +646,14 @@ body {
     font-weight: 700;
 }
 
-.redes-sociais{
+.redes-sociais {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    
+
 }
 
-.redes-sociais i{
+.redes-sociais i {
     font-size: 20px;
 }
 
@@ -794,7 +768,7 @@ body {
         font-size: 20px;
     }
 
-    .acessibilidade{
+    .acessibilidade {
         bottom: 50px;
     }
 
@@ -953,30 +927,65 @@ body {
         width: 5%;
     }
 
+    .introducao-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
     .card {
-        height: 400px;
+        height: 260px;
+        width: 80%;
     }
 
     .imagem-card-da-direita {
-        height: 210px;
+        display: none;
     }
 
     .card-direita {
-        height: 210px;
+        width: 80%;
+        height: 160px;
+    }
+
+    .card-meio {
+        width: 80%;
+    }
+
+    .card-imagem-esquerda {
+        display: none;
     }
 
     .imagem-grande-direita {
         display: none;
     }
 
-    .imagem-urso {
-        height: 50%;
-    }
 
     .iconeFomulario {
         width: 10%;
     }
 
+    .numeros-produtos {
+        font-size: 30px;
+    }
+
+    .sequencia-principais-produtos {
+        gap: 30px;
+    }
+
+    .produtos h2 {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .produtos p {
+        font-size: 16px;
+    }
+
+    .imagem-urso {
+        width: 60%;
+        height: 50%;
+    }
 }
 
 @media (width: 1024px) {
