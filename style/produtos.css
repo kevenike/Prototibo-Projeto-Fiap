@@ -144,6 +144,120 @@
     font-size: 17px;
 }
 
+/* Formulario fixadoo */
+
+.formOculto {
+    display: none;
+}
+
+.iconeImagem {
+    width: 30%;
+    background-color: #F1F1F1;
+    border-radius: 100px;
+}
+
+.iconeFomulario {
+    width: 6%;
+    height: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #00b3ff;
+    border-radius: 40px 50px 10px;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: white;
+    cursor: pointer;
+
+    transition: 1.5s;
+    position: fixed;
+    right: 10px;
+    bottom: 150px;
+}
+
+.iconeFomulario:hover {
+    background-color: #032d60;
+    transform: scale(1.1);
+}
+
+.formularioFixado {
+    background-color: #ffffff;
+    max-width: 300px;
+    height: 450px;
+    padding: 40px;
+
+    border-radius: 20px;
+    border: 6px solid;
+    border-color: var(--cor-primaria);
+
+
+    position: fixed;
+    bottom: 1%;
+    right: 10px; 
+
+}
+
+.fixado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.legenda {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px;
+}
+
+.especializada {
+    color: var(--cor-primaria);
+}
+
+.formulario-lead {
+    position: relative;
+    margin: 20px 0px;
+}
+
+.formulario-lead label {
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    transition: all 0.2s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    font-size: 17px;
+    outline: none;
+}
+
+form .formulario-lead .input:focus ~ label,
+form .formulario-lead .input:valid ~ label {
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: #00b3ff;
+} 
+
+.botaoFormularioFixado{
+    width: 70%;
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #032d60;
+    color: #fff;
+    transition: 1.5s;
+}
+
+.botaoFormularioFixado:hover{
+    background-color: #00b3ff;
+}
+
+
 /* cards-conta-pessoal */
 
 .titulo-nova-experiencia {
@@ -594,6 +708,29 @@
 
     .produtos p {
         font-size: 15px;
+    }
+
+    .iconeFomulario {
+        width: 20%;
+        height: 5%;
+
+    }
+
+    .iconeImagem {
+        width: 20%;
+    }
+
+    .iconeFomulario h2 {
+        font-size: 14px;
+    }
+
+    .formularioFixado {
+        width: 60%;
+        height: 400px;
+
+        position: fixed;
+        right: 7px;
+        bottom: 7px;
     }
 
     .titulo-nova-experiencia {
