@@ -787,8 +787,8 @@ form .formulario-lead .input:valid ~ label {
     }
 
     .formularioFixado {
-        width: 65%;
-        height: 550px;
+        width: 90%;
+        height: 400px;
 
         position: fixed;
         right: 7px;
