@@ -684,7 +684,8 @@ form .formulario-lead .input:valid ~ label {
 
 .conteudo-rodape a {
     text-decoration: none;
-    color: #858585
+    color: #858585;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -787,7 +788,7 @@ form .formulario-lead .input:valid ~ label {
     }
 
     .formularioFixado {
-        width: 90%;
+        width: 60%;
         height: 400px;
 
         position: fixed;
@@ -872,6 +873,10 @@ form .formulario-lead .input:valid ~ label {
         width: 90%;
         height: 824px;
         background-position: center center;
+    }
+
+    .imagemDivulgaTexto p{
+       width: 90%;
     }
 
 
