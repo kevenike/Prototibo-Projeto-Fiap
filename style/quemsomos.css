@@ -404,11 +404,11 @@ body {
         padding: 15px;
     }
 
-    .trabalhe-conosco{
+    /* .trabalhe-conosco{
         position: relative;
         bottom: 510px;
         left: 10px;
-    }
+    } */
 
     .texto-imagem-trabalhando-conosco img{
         width: 100%;
@@ -433,10 +433,10 @@ body {
         flex-direction: column;
     }
 
-    .social-midia{
+    /* .social-midia{
         position: relative;
         bottom: 470px;
-    }
+    } */
 
     .texto-midias{
         width: 100%;
