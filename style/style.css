@@ -102,7 +102,7 @@ body {
 
 .texto-titulo {
     width: 25%;
-    color: #032d60;
+    color: var(--cor-primaria);
 
     display: flex;
     flex-direction: column;
@@ -145,7 +145,7 @@ body {
 
 
 .botao-titulo:hover {
-    background-color: rgb(25, 132, 247);
+    background-color: #4A7CFF;
     transform: scale(1.1);
 }
 
@@ -187,7 +187,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #00b3ff;
+    background-color: #4A7CFF;
     border-radius: 40px 50px 10px;
     font-family: sans-serif;
     font-size: 10px;
@@ -279,7 +279,7 @@ form .formulario-lead .input:valid ~ label {
 }
 
 .botaoFormularioFixado:hover{
-    background-color: #00b3ff;
+    background-color: #4A7CFF;
 }
 
 /* Nosso cliente */
@@ -494,11 +494,11 @@ form .formulario-lead .input:valid ~ label {
 }
 
 .numero-um {
-    color: #032d6081;
+    color: #4a7dff62;
 }
 
 .numero-dois {
-    color: #032d60c5;
+    color: #4a7dff9d;
 }
 
 .numero-tres {
@@ -617,7 +617,7 @@ form .formulario-lead .input:valid ~ label {
 .rodape {
     background-color: #F4F4F4;
     height: 450px;
-    margin-top: 200px;
+    margin-top: 90px;
 }
 
 .rodape-conteudo {
