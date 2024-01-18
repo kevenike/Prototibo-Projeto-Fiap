@@ -27,6 +27,8 @@ body {
     background-color: var(--cor-secundaria);
     position: fixed;
 
+    z-index: 900;
+
 }
 
 .menu {
