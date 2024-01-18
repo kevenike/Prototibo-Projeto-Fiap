@@ -431,11 +431,17 @@ body {
     .midias-sociais-imagem{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .social-midia{
         position: relative;
-        bottom: 460px;
+        bottom: 495px;
+    }
+
+    .img-social{
+        width: 100%;
+        height: 455px;
     }
 
     .texto-midias{
