@@ -193,7 +193,7 @@
 
     position: fixed;
     bottom: 1%;
-    right: 10px; 
+    right: 10px;
 
 }
 
@@ -227,7 +227,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.input{
+.input {
     width: 100%;
     border: none;
     border-bottom: 2px solid #ccc;
@@ -236,14 +236,14 @@
     outline: none;
 }
 
-form .formulario-lead .input:focus ~ label,
-form .formulario-lead .input:valid ~ label {
+form .formulario-lead .input:focus~label,
+form .formulario-lead .input:valid~label {
     transform: translateY(-24px);
     font-size: 12px;
     color: #00b3ff;
-} 
+}
 
-.botaoFormularioFixado{
+.botaoFormularioFixado {
     width: 70%;
     padding: 10px;
     border-style: none;
@@ -253,7 +253,7 @@ form .formulario-lead .input:valid ~ label {
     transition: 1.5s;
 }
 
-.botaoFormularioFixado:hover{
+.botaoFormularioFixado:hover {
     background-color: #00b3ff;
 }
 
@@ -283,8 +283,6 @@ form .formulario-lead .input:valid ~ label {
     justify-content: space-around;
     gap: 50px;
     margin-top: 40px;
-
-
 }
 
 
@@ -298,6 +296,7 @@ form .formulario-lead .input:valid ~ label {
     align-items: center;
     justify-content: center;
     gap: 30px;
+    box-shadow: 4px 6px 16px #000;
 }
 
 .texto-conta {
@@ -462,7 +461,7 @@ form .formulario-lead .input:valid ~ label {
     justify-content: center;
     gap: 20px;
 
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 6px 16px #000;
     border-radius: 20px;
 }
 
@@ -502,7 +501,8 @@ form .formulario-lead .input:valid ~ label {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 30px 10px;
+    padding: 40px ;
+    background-color:  #FBFBFB;
 }
 
 .vendas {
@@ -511,10 +511,6 @@ form .formulario-lead .input:valid ~ label {
     flex-direction: column;
     gap: 20px;
 
-}
-
-.imagem-mulher-sorindo {
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .titulo-vendas {
@@ -910,6 +906,10 @@ form .formulario-lead .input:valid ~ label {
         width: 98%;
     }
 
+    .iconeFomulario{
+        width: 15%;
+    }
+
     .card-conta {
         display: flex;
         flex-direction: column;
@@ -971,6 +971,10 @@ form .formulario-lead .input:valid ~ label {
     .produtos-esquerda h1 {
         width: 100%;
         font-size: 24px;
+    }
+
+    .iconeFomulario{
+        width: 10%;
     }
 
     .nova-experiencia {

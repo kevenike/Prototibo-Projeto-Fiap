@@ -221,7 +221,6 @@ body {
     position: fixed;
     bottom: 1%;
     right: 10px; 
-    z-index: 900;
 
 }
 
@@ -236,6 +235,10 @@ body {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px 0px;
+}
+
+.iconex{
+    cursor: pointer;
 }
 
 .especializada {
@@ -497,11 +500,11 @@ form .formulario-lead .input:valid ~ label {
 }
 
 .numero-um {
-    color: #4a7dff62;
+    color: #032d608e;
 }
 
 .numero-dois {
-    color: #4a7dff9d;
+    color: #032d60bb;
 }
 
 .numero-tres {
@@ -572,7 +575,7 @@ form .formulario-lead .input:valid ~ label {
     flex-wrap: wrap;
     justify-content: center;
 
-    margin-top: 40px;
+    padding: 50px;
 }
 
 .cards-empresa h2 {
@@ -620,7 +623,6 @@ form .formulario-lead .input:valid ~ label {
 .rodape {
     background-color: #F4F4F4;
     height: 450px;
-    margin-top: 90px;
 }
 
 .rodape-conteudo {
@@ -893,7 +895,7 @@ form .formulario-lead .input:valid ~ label {
     }
 
     .segundo-rodape {
-        margin-top: 50%;
+        height: 80px;
     }
 
     .segundo-rodape-conteudo img {
@@ -909,7 +911,7 @@ form .formulario-lead .input:valid ~ label {
     }
 
     .conteudo-rodape a {
-        font-size: 10px;
+        font-size: 13px;
     }
 }
 
