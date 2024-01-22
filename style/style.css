@@ -840,14 +840,14 @@ form .formulario-lead .input:valid ~ label {
     }
 
     .cardMobile p {
-        font-size: 18px;
+        font-size: 1.8vh;
         font-weight: 300;
         font-family: Arial, Helvetica, sans-serif;
     }
 
     .introducao-card h2 {
         text-transform: uppercase;
-        font-size: 20px;
+        font-size: 2.5vh;
     }
 
     .produtos-principais {
