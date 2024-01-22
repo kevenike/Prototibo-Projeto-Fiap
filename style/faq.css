@@ -41,12 +41,12 @@
     text-decoration: none;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #3029D9;
+    color: #4A7CFF;
     transition: 0.5s;
 }
 
 .conhecer-produtos:hover {
-    color: #4A7CFF;
+    color: #3029D9;
 }
 
 .card-faq {
@@ -82,7 +82,7 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #3029D9;
-    transition: 0.5s;
+    transition: 1.5s;
 }
 
 .link-saiba-mais:hover {
@@ -124,7 +124,7 @@
 .fa-crosshairs {
     font-size: 25px;
     margin-right: 10px;
-    color: #3029D9;
+    color: #4A7CFF;
 }
 
 .texto-divulgacao-faq {
@@ -169,7 +169,7 @@
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
-    color: #3029D9;
+    color: #4A7CFF;
 }
 
 .desvendando {
@@ -181,7 +181,7 @@
 }
 
 .o-significado {
-    color: #3029D9;
+    color: #4A7CFF;
 }
 
 .comecamos-a-operar {
@@ -197,7 +197,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
 
-    color: #3029D9;
+    color: #4A7CFF;
 }
 
 
@@ -227,7 +227,7 @@
 }
 
 .gerenciamento-relacionamento {
-    color: #3029D9;
+    color: #4A7CFF;
     margin-top: 100px;
 }
 
@@ -281,7 +281,7 @@
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
-    color: #3029D9;
+    color: #4A7CFF;
 }
 
 .o-que-a-salesforce-faz {
@@ -303,13 +303,13 @@
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    color: #3029D9;
+    color: #4A7CFF;
     text-decoration: none;
     transition: 1.5s;
 }
 
 .conheca-equipe:hover {
-    color: #4A7CFF;
+    color: #3029D9;
 }
 
 .ConteudoMultimidia img {

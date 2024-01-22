@@ -9,7 +9,7 @@
 }
 
 :root {
-    --cor-primaria: #3029D9;
+    --cor-primaria: #4A7CFF;
     --cor-secundaria: #ffffff;
 }
 
@@ -147,7 +147,7 @@ body {
 
 
 .botao-titulo:hover {
-    background-color: #4A7CFF;
+    background-color: #0048ff;
     transform: scale(1.1);
 }
 
@@ -500,11 +500,11 @@ form .formulario-lead .input:valid~label {
 }
 
 .numero-um {
-    color: #2f29d985;
+    color: #4a7dff83;
 }
 
 .numero-dois {
-    color: #2f29d9bd;
+    color: #4a7dffaf;
 }
 
 .numero-tres {
