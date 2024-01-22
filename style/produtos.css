@@ -5,7 +5,7 @@
 }
 
 :root {
-    --cor-produtos-primaria: #4A7CFF;
+    --cor-produtos-primaria: #3029D9;
     --cor-secundaria: #ffffff;
 }
 
@@ -365,7 +365,7 @@ form .formulario-lead .input:valid~label {
 }
 
 .produtos-salesforce {
-    background-color: #4A7CFF;
+    background-color: var(--cor-produtos-primaria);
     color: white;
     border-radius: 7px;
     margin-right: 5px;
@@ -397,7 +397,7 @@ form .formulario-lead .input:valid~label {
 }
 
 .marketing {
-    color: #4A7CFF;
+    color: var(--cor-produtos-primaria);
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -428,7 +428,7 @@ form .formulario-lead .input:valid~label {
 }
 
 .fa-marketing {
-    color: #4A7CFF;
+    color: var(--cor-produtos-primaria);
     font-size: 25px;
 }
 
@@ -516,7 +516,7 @@ form .formulario-lead .input:valid~label {
 .titulo-vendas {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 9000;
-    color: #4A7CFF;
+    color: var(--cor-produtos-primaria);
 }
 
 .aumente-as-vendas {
@@ -533,7 +533,7 @@ form .formulario-lead .input:valid~label {
 }
 
 .commerce-cloud {
-    color: #4A7CFF;
+    color: var(--cor-produtos-primaria);
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -545,7 +545,7 @@ form .formulario-lead .input:valid~label {
 }
 
 .commerce-cloud:hover {
-    color: #2600ff;
+    color: #4A7CFF;
 }
 
 /* Rodape */
@@ -553,7 +553,6 @@ form .formulario-lead .input:valid~label {
 .rodape {
     background-color: #F4F4F4;
     height: 450px;
-    margin-top: 200px;
 }
 
 .rodape-conteudo {

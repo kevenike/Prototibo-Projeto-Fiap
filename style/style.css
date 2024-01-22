@@ -212,6 +212,7 @@ body {
     max-width: 300px;
     height: 450px;
     padding: 40px;
+    z-index: 900;
 
     border-radius: 20px;
     border: 6px solid;
@@ -911,7 +912,7 @@ form .formulario-lead .input:valid ~ label {
     }
 
     .conteudo-rodape a {
-        font-size: 13px;
+        font-size: 10px;
     }
 }
 
