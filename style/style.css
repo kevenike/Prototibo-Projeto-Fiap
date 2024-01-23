@@ -881,7 +881,7 @@ form .formulario-lead .input:valid~label {
     }
 
     .titulo-principais-produtos {
-        font-size: 35px;
+        font-size: 20px;
     }
 
     .numeros-produtos {
@@ -907,14 +907,17 @@ form .formulario-lead .input:valid~label {
         background-position: center center;
     }
 
-    .imagemDivulgaTexto p {
+    .imagemDivulgaTexto{
         width: 90%;
     }
 
+    .imagemDivulgaTexto h2{
+        font-size: 30px;
+    }
 
     .cards-empresa h2 {
         width: 100%;
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .rodape {
