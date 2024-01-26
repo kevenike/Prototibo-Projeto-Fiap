@@ -17,6 +17,7 @@
 
 body {
     background-color: #fbfbfb;
+    box-sizing: border-box;
 }
 
 
@@ -947,24 +948,32 @@ form .formulario-lead .input:valid~label {
 
 /* Tela de tablet*/
 @media (width: 768px) {
+    .titulo-novo {
+        width: 100%;
+    }
+
     .texto-titulo h1 {
         font-size: 30px;
     }
 
-    .titulo-novo {
+    .titulo-novo{
         font-size: 75px;
     }
 
     .texto-titulo p {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     #imgTituloMenu {
-        width: 30%;
+        width: 40%;
     }
 
     .botaoAcessibilidade {
-        width: 5%;
+        width: 15%;
+    }
+
+    .titulo-introducao p{
+        width: 90%;
     }
 
     .introducao-card {
@@ -974,9 +983,15 @@ form .formulario-lead .input:valid~label {
         gap: 40px;
     }
 
+    .cardCorBranca{
+        background-color: #fff;
+        color: #000;
+        border: solid 1px;
+    }
+
     .card {
-        height: 260px;
-        width: 80%;
+        height: 20vh;
+        width: 100%;
     }
 
     .imagem-card-da-direita {
@@ -984,12 +999,12 @@ form .formulario-lead .input:valid~label {
     }
 
     .card-direita {
-        width: 80%;
-        height: 160px;
+        width: 100%;
+        height: 15vh;
     }
 
     .card-meio {
-        width: 80%;
+        width: 100%;
     }
 
     .card-imagem-esquerda {
@@ -1002,7 +1017,7 @@ form .formulario-lead .input:valid~label {
 
 
     .iconeFomulario {
-        width: 10%;
+        width: 15%;
     }
 
     .numeros-produtos {
