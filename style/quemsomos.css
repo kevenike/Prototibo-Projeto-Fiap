@@ -256,14 +256,14 @@ body {
     color: #4A7CFF;
 }
 
-.o-mundo-vai-mudar{
+.o-mundo-vai-mudar {
     width: 85%;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
 }
 
-.tao-certo-quanto{
+.tao-certo-quanto {
     width: 80%;
     font-size: 18px;
     font-weight: 300;
@@ -272,19 +272,19 @@ body {
 
 
 /* Foco em reunir */
-.container-foco-pessoas{
+.container-foco-pessoas {
     background-color: #fff;
 }
 
 
-.social{
+.social {
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
     color: #4A7CFF;
 }
 
-.texto-imagem-foco{
+.texto-imagem-foco {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -292,21 +292,21 @@ body {
     padding: 30px;
 }
 
-.texto-social-reunir{
+.texto-social-reunir {
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.reunir-pessoas{
+.reunir-pessoas {
     width: 40%;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
 }
 
-.desde-o-inicio{
+.desde-o-inicio {
     width: 45%;
     font-size: 17px;
     font-family: sans-serif;
@@ -342,138 +342,292 @@ body {
 
         background-color: var(--cor-secundaria);
         box-shadow: 1px 1px 1px black;
-        
+
     }
 
     .menu-open a {
         color: var(--cor-primaria);
     }
 
-    .quem-somos{
+    .quem-somos {
         font-size: 50px;
     }
 
-    .empresa-americana{
+    .empresa-americana {
         width: 80%;
         font-size: 19px;
     }
 
-    .card-quem-somos{
+    .card-quem-somos {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
 
-    .cards-item{
+    .cards-item {
         display: flex;
         align-items: center;
         width: 80%;
         height: 100px;
     }
 
-    .item-icones-cima img{
+    .item-icones-cima img {
         display: none;
     }
 
 
-    .texto-proficionais{
+    .texto-proficionais {
         width: 100%;
         align-items: center;
     }
 
 
-    .titulo-profissionais-negocio{
+    .titulo-profissionais-negocio {
         font-size: 25px;
         width: 100%;
     }
 
-    .estaja-progrmado{
+    .estaja-progrmado {
         width: 100%;
     }
 
 
-    .texto-imagem-trabalhando-conosco{
+    .texto-imagem-trabalhando-conosco {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         gap: 10px;
     }
 
-    .tranbalhando-conosco{
+    .tranbalhando-conosco {
         padding: 15px;
     }
 
-    .trabalhe-conosco{
+    .trabalhe-conosco {
         position: relative;
         bottom: 510px;
         left: 10px;
-    } 
+    }
 
-    .texto-imagem-trabalhando-conosco img{
+    .texto-imagem-trabalhando-conosco img {
         width: 100%;
         height: 455px;
     }
 
-    .titulo-trabalhe{
+    .titulo-trabalhe {
         width: 100%;
     }
 
-    .de-o-seu-melhor{
+    .de-o-seu-melhor {
         width: 100%;
         font-size: 30px;
     }
 
-    .junte-se{
+    .junte-se {
         width: 100%;
     }
 
-    .midias-sociais-imagem{
+    .midias-sociais-imagem {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .social-midia{
+    .social-midia {
         position: relative;
         bottom: 495px;
     }
 
-    .img-social{
+    .img-social {
         width: 100%;
         height: 455px;
     }
 
-    .texto-midias{
+    .texto-midias {
         width: 100%;
     }
-    
-    .o-mundo-vai-mudar{
+
+    .o-mundo-vai-mudar {
         width: 100%;
         font-size: 25px;
     }
 
-    .tao-certo-quanto{
+    .tao-certo-quanto {
         width: 100%;
     }
 
-    .texto-imagem-foco{
+    .texto-imagem-foco {
         display: flex;
         flex-direction: column;
         gap: 20px;
     }
 
-    .texto-social-reunir{
+    .texto-social-reunir {
         width: 100%;
-        
+
+    }
+
+    .reunir-pessoas {
+        width: 100%;
+    }
+
+    .desde-o-inicio {
+        width: 100%;
+    }
+
+}
+
+@media (width: 768px) {
+    .empresa-americana {
+        width: 70%;
+    }
+
+    .card-quem-somos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .cards-item {
+        width: 70%;
+        height: 15vh;
+        align-items: center;
+    }
+
+    .cards-item-paragrafo {
+        font-size: 20px;
+    }
+
+    .posicionamento-dos-elementos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texto-proficionais {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo-profissionais-negocio {
+        width: 90%;
+    }
+
+    .estaja-progrmado {
+        width: 90%;
+    }
+
+    .texto-imagem-trabalhando-conosco {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .texto-imagem-trabalhando-conosco img {
+        width: 80%;
+    }
+
+    .trabalhe-conosco {
+        position: relative;
+        bottom: 73vh;
+        left: 1vh;
+    }
+
+    .junte-se {
+        width: 90%;
+    }
+
+    .titulo-trabalhe {
+        width: 80%;
+    }
+
+    .midias-sociais-imagem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-social {
+        width: 80%;
+    }
+
+    .texto-midias {
+        width: 80%;
+    }
+
+    .social-midia {
+        position: relative;
+        bottom: 93vh;
+        left: 1vh;
+    }
+
+    .o-mundo-vai-mudar {
+        width: 90%;
+    }
+
+    .texto-imagem-foco {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .texto-social-reunir {
+        width: 50%;
+    }
+
+    .reunir-pessoas {
+        width: 100%;
+    }
+
+    .desde-o-inicio {
+        width: 90%;
+    }
+
+
+    .conteudo-rodape {
+        font-size: 12px;
+    }
+}
+
+@media (width: 1024px) {
+    .empresa-americana{
+        width: 60%;
+    }
+
+    .card-quem-somos{
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .item-icone-pai{
+        width: 50%;
+    }
+
+    .titulo-profissionais-negocio{
+        width: 100%;
+    }
+
+    .estaja-progrmado{
+        width: 90%;
+    }
+
+    .texto-imagem-trabalhando-conosco img{
+        width: 50%;
+    }
+
+    .junte-se{
+        width: 90%;
     }
 
     .reunir-pessoas{
-        width: 100%;
+        width: 90%;
     }
 
     .desde-o-inicio{
-        width: 100%;
+        width: 90%;
     }
-
 }

@@ -141,7 +141,7 @@ body {
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
     font-size: 20px;
-    transition: 1.05s;
+    transition: 1.5s;
     cursor: pointer;
 }
 
@@ -149,7 +149,6 @@ body {
 
 .botao-titulo:hover {
     background-color: #0048ff;
-    transform: scale(1.1);
 }
 
 .botaoAcessibilidade {
@@ -216,8 +215,8 @@ body {
     z-index: 900;
 
     border-radius: 20px;
-    border: 6px solid;
-    border-color: #032d60;
+    border: 3px solid;
+    border-color: var(--cor-primaria);
 
 
     position: fixed;
@@ -283,11 +282,12 @@ form .formulario-lead .input:valid~label {
     border-radius: 10px;
     background-color: var(--cor-primaria);
     color: #fff;
+    cursor: pointer;
     transition: 1.5s;
 }
 
 .botaoFormularioFixado:hover {
-    background-color: #4A7CFF;
+    background-color: #0548f3;
 }
 
 /* Nosso cliente */
@@ -1053,11 +1053,24 @@ form .formulario-lead .input:valid~label {
     }
 
     .texto-titulo p {
-        font-size: 20px;
+        font-size: 18px;
+    }
+
+    .titulo-introducao p{
+        width: 90%;
     }
 
     .card {
-        height: 400px;
+        width: 40vh;
+        height: 37vh;
+    }
+
+    .card h2{
+        font-size: 30px;
+    }
+    
+    .card p{
+        font-size: 22px;
     }
 
     .card-direita {
@@ -1078,5 +1091,9 @@ form .formulario-lead .input:valid~label {
 
     .iconeFomulario {
         width: 10%;
+    }
+
+    .imagemDivulgaTexto{
+        width: 100%;
     }
 }
