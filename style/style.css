@@ -220,7 +220,7 @@ body {
 
 
     position: fixed;
-    bottom: 15%;
+    bottom: 1%;
     left: 10px;
 
 }
@@ -661,7 +661,26 @@ form .formulario-lead .input:valid~label {
 
 .redes-sociais i {
     font-size: 20px;
+    transition: 1.5s;
 }
+
+.fa-instagram:hover{
+    color: #993399;
+}
+
+.fa-facebook:hover{
+    color: #3b5998;
+    
+}
+
+.fa-linkedin:hover{
+    color: #0e76a8;
+}
+
+.fa-youtube:hover{
+    color: #c4302b;
+}
+
 
 /* segundo rodape */
 .segundo-rodape {
