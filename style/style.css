@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
@@ -190,7 +190,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     background-color: #4A7CFF;
-    border-radius: 40px 50px 10px;
+    border-radius: 10px 50px 40px;
     font-family: sans-serif;
     font-size: 10px;
     color: white;
@@ -198,7 +198,7 @@ body {
 
     transition: 1.5s;
     position: fixed;
-    right: 10px;
+    left: 10px;
     bottom: 150px;
 }
 
@@ -220,8 +220,8 @@ body {
 
 
     position: fixed;
-    bottom: 1%;
-    right: 10px;
+    bottom: 15%;
+    left: 10px;
 
 }
 
@@ -388,8 +388,8 @@ form .formulario-lead .input:valid~label {
 .card-esquerda-imagem {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     align-items: flex-end;
+    justify-content: space-evenly;
 }
 
 .card-direita {
